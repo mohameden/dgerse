@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = '';
-	public $db = 'de';
+	public $host = 'eu-cdbr-west-02.cleardb.net';
+	public $user = 'b23c65181643fa';
+	public $password = 'c8bf9843';
+	public $db = 'heroku_2cc21b02a181479';
 	public $dbprefix = 'de_';
 	public $live_site = '';
 	public $secret = 'luV1OvDxKra0y2U9';
@@ -31,7 +31,7 @@ class JConfig {
 	public $offset = 'UTC';
 	public $mailonline = '1';
 	public $mailer = 'mail';
-	public $mailfrom = 'med.farouk10@gmail.com';
+	public $mailfrom = 'info@dgese.net';
 	public $fromname = 'de';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
