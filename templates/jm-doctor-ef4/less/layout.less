@@ -1,0 +1,330 @@
+//--------------------------------------------------------------
+// Copyright (C) joomla-monster.com
+// License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+// Website: http://www.joomla-monster.com
+// Support: info@joomla-monster.com
+//---------------------------------------------------------------
+
+// LAYOUT
+//---------------------------------------------------------------
+
+//site wrapper
+#jm-allpage {
+  position: relative;
+  background: @JMpageBackground;
+}
+
+//sticky
+.sticky-bar #jm-bar-wrapp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+	width: 100%;
+  .box-sizing(border-box);
+  z-index: 999;
+}
+
+.sticky-bar #jm-allpage {
+	padding-top: 117px;
+}
+
+// top-bar
+// --------------------------
+
+#jm-top-bar {
+	color: @JMtopbarFontColor;
+  background: @JMtopbarBackground;
+  line-height: @JMtopbarHeight;
+  width: 100%;
+  p {
+    margin: 0;
+  }
+}
+
+// Bar
+// --------------------------
+
+#jm-bar {
+	color: @JMbarFontColor;
+  background: @JMbarBackground;
+  border-top: 5px solid @JMbarBorder;
+  border-bottom: 1px solid @JMbarBorder;
+}
+
+#jm-logo-sitedesc {
+  #jm-logo {
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin: 0;
+    a {
+      display: block;
+    }
+		span {
+			font-size: 2em;
+			font-weight: bold;
+		}
+  }
+  #jm-sitedesc {
+    vertical-align: middle;
+  }
+}
+
+#jm-bar-left {
+	padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#jm-bar-right {
+	padding-top: 20px;
+  padding-bottom: 20px;
+  //min-width: (@JMsearchWidth + 80);
+}
+
+// Header
+// --------------------------
+
+#jm-header {
+	color: @JMheaderFontColor;
+  padding-top: @JMbaseSpace;
+  background: @JMheaderBackground;
+  border-top: 1px solid @JMheaderBorder;
+  border-bottom: 1px solid @JMheaderBorder;
+}
+
+#jm-header.full-width {
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row-fluid {
+		margin-left: 0;
+		margin-right: 0;
+		[class*="span"] {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+// top
+// --------------------------
+
+#jm-top {
+	background: @JMtopBackground;
+	padding-top: @JMbaseSpace;
+}
+
+// breadcrumbs
+// --------------------------
+  
+#jm-font-switcher {
+  text-align: right;
+  margin: 0 0 15px;
+}
+
+// main
+// --------------------------
+
+#jm-main {
+	background: @JMmainBackground;
+	padding-top: @JMbaseSpace;
+}
+
+#jm-maincontent {
+	display: block;
+  margin-bottom: @JMbaseSpace;
+}
+
+// bottom
+// --------------------------
+
+#jm-bottom {
+  background: @JMbottomBackground;
+  padding-top: @JMbaseSpace;
+}
+
+#jm-bottom-in {
+	border-top: 1px solid @JMbottomBorder;
+  padding-top: @JMbaseSpace;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: @JMbottomBorder;
+    top: 1px;
+    left: 0;
+    right: auto;
+  }
+}
+
+// footer
+// --------------------------
+
+#jm-footer-mod {
+	color: @JMfooterFontColor;
+  border-top: 1px solid @JMfooterBorder;
+  border-bottom: 1px solid @JMfooterBorder;
+  padding-top: @JMbaseSpace;
+  background: @JMfooterBackground;
+}
+
+#jm-footer {
+	color: @JMcopyrightFontColor;
+  font-size: (@JMbaseFontSize - 1);
+  padding: 35px 0;
+  background: @JMcopyrightBackground;
+}
+
+
+// Copyrights
+// --------------------------
+
+#jm-footer-center {
+  text-align: left;
+}
+
+#jm-footer-left + #jm-footer-center {
+  text-align: center;
+}
+
+#jm-footer-right {
+  text-align: right;
+}
+
+#jm-footer-left,
+#jm-footer-right,
+#jm-footer-center {
+  line-height: 30px;
+}
+
+#jm-back-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  left: auto;
+  z-index: 999;
+  a {
+    text-decoration: none;
+    display: block;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  span {
+    display: block;
+    height: 60px;
+    .transition(all 1s ease 0s);
+    width: 60px;
+    background-color: @JMstyleDarken;  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../images/backtotop.png");
+    .opacity(30);
+    &:hover {
+        .opacity(60);
+    }
+  }
+}
+
+// section space / borders
+// --------------------------
+
+#jm-bar-wrapp + #jm-header,
+#jm-bar-wrapp + #jm-system-message + #jm-footer-mod {
+	border-top: none;
+}
+
+#jm-header + #jm-system-message + #jm-footer-mod {
+	border-top: none;
+	padding-top: 0;
+}
+
+#jm-top + #jm-main,
+#jm-top + #jm-bottom {
+	padding-top: 0;
+}
+
+#jm-main + #jm-bottom {
+	padding-top: 0;
+}
+
+// template width in pixels
+// --------------------------
+
+.responsive-disabled-pixels() when(ispixel(@JMfluidGridContainerLg)) {
+  //set min width if responsive is disabled
+  .responsive-disabled {
+    min-width: @JMfluidGridContainerLg;
+    #jm-allpage {
+      padding: 0!important;
+      min-width: @JMfluidGridContainerLg;
+    }
+    #jm-top-bar {
+      position: static;
+    }
+  }
+}
+.responsive-disabled-pixels();
+
+// template width in percentage
+// --------------------------
+
+.responsive-disabled-percentage() when(ispercentage(@JMfluidGridContainerLg)) {
+  @media (max-width: 1170px) {
+    .container-fluid {
+      .box-sizing(border-box);
+      max-width: 100%;
+    }
+  }  
+  //set min width if responsive is disabled
+  .responsive-disabled {
+    min-width: 1170px;
+    #jm-allpage {
+      padding: 0!important;
+      min-width: 1170px;
+    }
+    #jm-bar-wrapp {
+      position: static;
+    }
+  }
+}
+.responsive-disabled-percentage();
+
+// font-switcher
+// --------------------------
+
+.texttoggler {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none!important;
+  margin: 0 1px;
+  display: inline-block;
+}
+
+.texttoggler.small {
+  font-size: 0.8em;
+}
+
+.texttoggler.normal {
+  font-size: 1.1em;
+}
+
+.texttoggler.large {
+  font-size: 1.3em;
+}
+
+.smallview #jm-maincontent {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.largeview #jm-maincontent {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+
+

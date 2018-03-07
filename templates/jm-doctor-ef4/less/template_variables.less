@@ -1,0 +1,223 @@
+//--------------------------------------------------------------
+// Copyright (C) joomla-monster.com
+// License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+// Website: http://www.joomla-monster.com
+// Support: info@joomla-monster.com
+//---------------------------------------------------------------
+
+// Color versions
+// --------------------------------------------------
+
+@JMstyle: @JMcolorVersion;
+
+@JMstyleLighten: jmlighten(@JMstyle, 10%);
+@JMstyleDarken: jmdarken(@JMstyle, 10%);
+@JMstyleVeryLight: jmlighten(@JMstyle, 55%);
+
+//images directory
+@JMimgDir: @JMimagesDir;
+
+
+// Global colors
+// --------------------------------------------------
+
+@JMwhite: #ffffff;
+@JMblack: #000000;
+
+// Layout values
+// --------------------------------------------------
+
+//default line-height
+@JMbaseLineHeight: 1.7;
+@JMbodyFontSize: @JMbaseFontSize;
+
+@JMtopbarHeight: 34px;
+
+// background colors
+// --------------------
+
+@JMtopBackground: @JMpageBackground;
+@JMmainBackground: @JMpageBackground;
+@JMbottomBackground: @JMpageBackground;
+
+@JMfooterBackground:  @JMheaderBackground;
+
+@JMbodyBackground: @JMcopyrightBackground;
+
+// font colors
+// --------------------
+
+@JMfooterFontColor: @JMheaderFontColor;
+
+// borders
+// --------------------
+
+@JMbottomBorder: @JMborder;
+@JMfooterBorder: @JMheaderBorder;
+
+// Modules
+// --------------------------------------------------
+
+@JMfooterModuleTitleFontColor: @JMheaderModuleTitleFontColor;
+
+@JMstyleModuleTitleSpan: @JMstyle;
+
+@JMcutomBoxTitleColor: @white;
+@JMstyleCustomBox1Background: @JMstyleLighten;
+@JMstyleCustomBox2Background: @JMstyle;
+@JMstyleCustomBox3Background: @JMstyleDarken;
+
+@JMcustomBoxVerticalTitleColor: @white;
+
+@JMtableHoursFontColor: #444444;
+
+@JMcustomBoxBottomFontColor: #444444;
+
+@JMarticleTabsSmallTitleColor: #444444;
+
+// DJ Megamenu values
+// --------------------------------------------------
+
+@JMstyleMegamenuFontHover: @JMstyle;
+
+@JMmegamenuMenuModuleFontColor: @JMmegamenuSubmenuFontColor;
+
+@JMmegamenuElementHeight: 90px; // + 20px line height ~ 110px
+@JMmegamenuElementSubtitleFontSize: 10px; 
+
+@JMmegamenuSubmenuBottomBorder: jmdarken(@JMborder, 3%);
+
+@JMstyleMegamenuActiveBackground: @JMstyle;
+@JMstyleMegamenuSubmenuActiveFontColor: @JMstyle;
+
+// Menu
+// --------------------------------------------------
+
+@JMmenuLinkHover: jmdarken(@JMbaseFontColor, 50%);
+
+//top-menu-nav search width
+@JMmenuTopbarSubmenuWidth: 180px;
+
+// Buttons, Readmore, Inputs
+// --------------------------------------------------
+  
+@JMbuttonFontSize: 16px;
+@JMbuttonPaddingTopDown: 15px;
+@JMbuttonPaddingLeftRight: 45px;
+@JMstyleButtonFontColor: @JMstyle;
+@JMbuttonFontColorHover: @white;
+@JMbuttonBackground: #ececec;
+@JMstyleButtonBackgroundHover: @JMstyle;
+
+//dropdowns (article edit button list background)
+@JMstyleButtonDropdown: @JMstyle;  
+ 
+//inputs 
+@JMinputHeight: 50px;
+@JMinputPadding: 0 10px;
+@JMinputFontSize: 16px; 
+@JMinputBorder: #e9e9e9;
+@JMinputFontColor: #979ea1;
+@JMinputBackground: @white;
+@JMstyleInputFocusBorder: @JMstyle;
+
+//front search width
+@JMsearchWidth: 260px;
+
+//readmore
+@JMstyleReadmoreColor: @JMstyle;
+@JMreadmoreColorHover: #444444;
+
+// Template values
+// --------------------------------------------------
+
+//article info
+@JMarticleInfoFontColor: #858585;
+
+//links
+@JMstyleLink: @JMstyle;
+@JMstyleLinkHover: @JMstyleLighten;
+
+//selection
+@JMselectionFontColor: @white;
+
+//article headings
+@JMarticleTitleFontColorHover: @JMstyleLink;
+
+//offcanvas
+@JMoffCanvasToolbarBackground: jmdarken(@JMoffCanvasBackground, 20%);
+@JMoffCanvasIconSize: 20px;
+
+//pagination
+@JMstylePaginationFontColor: @JMstyle;
+@JMpaginationFontColorHover: @JMwhite;
+@JMpaginationInactiveFontColor: #cccccc;
+@JMpaginationBackground: #f1f1f1;
+@JMstylePaginationBackgroundHover: @JMstyle;
+
+//accordion
+@JMaccordionFontColor: #444444;
+@JMaccordionPlusBackground: #444444;
+@JMstyleAccordionFontColorHover: @JMstyle;
+@JMstyleAccordionMinusBackground: @JMstyle;
+
+//tabs
+@JMtabBackground: #f5f5f5;
+@JMtabContentBackground: @JMwhite;
+@JMtabFontColorHover: @JMwhite;
+@JMstyleTabBackgroundHover: @JMstyle;
+
+//table
+@JMtableBackground: transparent;
+@JMtableBorder: @JMborder;
+@JMtableHeadBackground: @JMstyle;
+@JMtableHeadFontColor: #fff;
+@JMtableBorderRadius: 0;
+
+@JMtableBackgroundAccent: #f8f8f8;
+@JMtableBackgroundHover: #f8f8f8;
+
+// EDITOR
+// --------------------------------------------------
+
+@JManimatedButtonsWidth: 280px;
+@JManimatedButtonsHeight: 250px;
+
+@JMstyleQuoteBackground: lighten(@JMstyleVeryLight, 10%);
+@JMstyleQuoteBorder: @JMstyle;
+
+// MEDIATOOLS
+// --------------------------------------------------
+
+@JMstyleMediatoolsDescriptionBackground: @JMstyle;
+
+@JMmediatoolsInnerTitleColor: @white;
+@JMmediatoolsInnerReadmoreColor: @white;
+
+@JMstyleMediatoolsInnerReadmoreHover: @JMstyleVeryLight;
+
+@JMmediatoolsAlbumBackground: @JMpageBackground;
+@JMmediatoolsAlbumBorder: @JMborder;
+
+@JMstyleMediatoolsNavigationColor: @JMstyle;
+
+@JMmediatoolsPaginationBackground: #e5e5e5;
+
+@JMmediatoolsPaginationFontColor: @JMmediatoolsDescriptionFontColor;
+@JMmediatoolsPaginationFontHover: @white;
+
+@JMstyleMediatoolsPaginationBackgroundHover: @JMstyle;
+
+@JMstyleTabberBackground: @JMstyle;
+
+@JMmediatoolsTestimonialsBackground: #f1f1f1;
+
+// DJ-TABS
+// --------------------------------------------------
+
+@JMtabDateColor: #5a5a5a; 
+@JMtabCategoryAuthorColor: #444444;
+
+
+
+

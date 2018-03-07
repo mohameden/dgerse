@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.0" type="template" client="site">
+    <name>Blogus</name>
+    <version>1.0</version>
+    <creationDate>April, 2015</creationDate>
+    <author>JooThemes.net</author>
+    <authorEmail>contact@JooThemes.net</authorEmail>
+    <authorUrl>http://JooThemes.net</authorUrl>
+    <copyright>Copyright 2015 - JooThemes.net</copyright>
+    <license>Commercial Design</license>
+	<description><![CDATA[
+	<h1>BLOGUS Free Joomla! 3 Responsive Template</h1>
+	<img src="../templates/blogus/template_thumbnail.jpg" align="left" style="padding-right:20px;"/>
+	<b>BLOGUS Free Joomla! 3 Responsive Template developed by <a target="_blank" href="http://JooThemes.net">JooThemes.net</a>.
+	<br />Need help to set up your template? Check out the <a target="_blank" href="http://JooThemes.net" target="_blank">TFJ Support</a> page.
+	<br />Download our <a target="_blank" href="http://JooThemes.net/free-joomla-templates">Free Joomla templates</a>.
+	<br />See and buy our <a target="_blank" href="http://JooThemes.net/responsive-joomla-templates">Joomla Templates Premium Versions</a>.
+	<br />Copyright &copy; 2015 JooThemes.net - All Rights Reserved</b>.
+	<hr />
+	<p>Package tpl-blogus-free-rwd-j3.zip<br>
+<strong>Blogus Free Joomla! 3 Responsive Template - April 2015</strong><br>
+Version 1.0<br>
+License: Commercial Design & Layout</br>
+Author: <a target="_blank" href="http://JooThemes.net/">http://JooThemes.net</a><br>
+Copyright (C) 2015 JooThemes.net All Rights Reserved.<br>
+Email: <a href="mailto:contact@JooThemes.net">contact@JooThemes.net</a><br></p>
+
+<h2>Footer link remove license</h2>
+
+<p>Blogus is free Joomla 3 template, released under the Creative Commons Attribution 3.0 license and are redistributed as long, as you keep the our links back on the footer.</p>
+
+<p>You CAN NOT remove (or unreadable) these links without our permission.</p> 
+
+<p>When you don't want to have link back on the template footer or want to use our templates for commercial websites, you have to pay $ 10 USD via PayPal.</p>
+
+<p>When you don't want to have backlinks on the template footer, you have to pay $ 10 USD via PayPal.</p>  
+
+<p>Paypal: contact@joothemes.net</p>
+
+<h2>GPL Licensing</h2>
+All JooThemes.net templates are released under the GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.html). Specifically, the PHP code portions are distributed under the GPL license. If not otherwise stated, all images, manuals, cascading style sheets, and included JavaScript are NOT GPL, and are released under "JooThemes.net" Proprietary Use License" unless specifically authorized. Elements of the templates released under this proprietary license may not be redistributed or repackaged for use other than those allowed by the Terms of Use.
+
+<h2>Buy BLOGUS Quickstart Instalation Package</h2>
+<h3>What is quickstart package?</h3>
+"Quickstart Package" is a BLOGUS Template + Joomla 3 + all content, all modules, all components and settings used in <a target="_blank"  href="http://joothemes.net/demo/#blogus">demo site</a>.</p>
+<h2>How to install Quickstart package?</h2>
+<p>Quickstart Package install exactly the same as a normal Joomla! installation package. (To get know more about technical requirements to run Joomla! please visit: Joomla technical requirements).</p>
+
+<h2>TEMPLATE FEATURES</h2>
+<p>BLOGUS Free Responsive Joomla! 3 template is based on the Bootstrap Framework. The Bootstrap Framework makes it fully responsive to all screen resolutions and aspect ratios.</p>
+<ul>
+<li>Joomla! 3.x compatible.</li>
+<li>Based on Bootstrap.</li>
+<li>Responsive Mobile-Friendly template for Joomla 3. A responsive layout automatically adapts to the viewing device, allowing for an optimized appearance on multiple devices, such as tablets.</li>
+<li>Template Bundle Package.</li>
+<li>CSS Superfish multi level dropdown menu<strong>.</strong></li>
+<li>Responsive Menu.</li>
+<li>jComments support and jComment theme (available only in Qucikstart Package)</li>
+<li>Gallery plugin and modules (available only in Qucikstart Package)</li>
+<li>Client Logos Scroller module, it's allow you can put your client into a folder at your server and it will display your client's logo as scroller. Client Logos Scroller module (available only in Qucikstart Package)</li>
+<li>Tableless design and 100% CSS based.</li>
+<li>Lightweight and fast-loading.</li>
+<li>Logo as Text or Image with configuration parameters.</li>
+<li>Built-in 99 Google Fonts. (650 Google Fonts available only in Qucikstart Package)</li>
+<li>Built-in 30+ social media icons for the popular social networking sites including Twitter, Facebook, Google Plus, Youtube, LinkedIn and more...</li>
+<li>4 layout options: 3 columns (left+component+right), 2 columns (left+component), 2 columns (component + right), 1 column (component).</li>
+<li>11 Possible Module Positions.&nbsp;All module positions are fully collapsible</li>
+<li>Support for Sitemap - Xmap component.</li>
+<li>Cross-Browser Support - Blogus&nbsp;template work great with all modern browsers like Firefox, Chrome, Safari, Opera and Internet Explorer 9+.</li>
+<li>SEF Optimised Layout.</li>
+<li>Heading: h1, h2, h3, h4 and h5.</li>
+<li>Optimized code for Search Engines which helps in SEO.</li>
+<li>SEO Breadcrumbs with Microdata Google - this will give a nice category-display in the Google search results.</li>
+</ul>
+<ul>
+<li>Full quickstart installation package with Joomla 3.4.1.
+<p><strong>What is quickstart package?</strong> - "Quickstart Package" is a BLOGUS Template + Joomla 3 + all content, all modules, all components and settings used in demo site.</p>
+<p><strong>How to install Quickstart package?</strong><br />Quickstart Package install exactly the same as a normal Joomla! installation package. (To get know more about technical requirements to run Joomla! please visit: <a href="http://www.joomla.org/about-joomla/technical-requirements.html" title="Joomla technical requirements">Joomla technical requirements</a>).</p>
+</li>
+<li>Quickstart Package Extra Extensions (Components, Modules, Plugin) Included.</li>
+<li>Gallery plugin &amp; module - Sigplus Gallery (Sigplus Image Gallery Plus is a straightforward way to add image or photo galleries to a Joomla article with a simple syntax. It takes a matter of minutes to set up a gallery but those who are looking for a powerful gallery solution will not be disappointed either: sigplus is suitable for both beginner and advanced users.</li>
+<li>Xmap - the best sitemap component.</li>
+<li>JCE editor - the best WYSiWYG editor.</li>
+<li>jComments component and jComments BLOGUS theme.&nbsp;The JComments allows to website visitors to leave comments to any published materials. It provides the flexible system of access rights settings, wide possibilities of custom view setting, uses the AJAX technology and provides many other features.</li>
+<li>Client Logos Scroller module, it's allow you can put your client into a folder at your server and it will display your client's logo as scroller.</li>
+<li>Extra SEO SEF plugins automatically generates description meta tags by pulling text from the content to help with SEO. It also gives you the ability to set different title configurations.</li>
+<li>Extra Cache plugin.</li>
+<li>And more...</li>
+</ul>
+<h2><a href="http://joothemes.net/responsive-joomla-templates/blogus-free-joomla-3-rwd-template" target="_blank" title="Buy this template with Joomla Quickstart Package">Qucikstart Package - Buy Now (only 12 USD)</a></h2>
+    
+<h2><strong>More information on <a target="_blank" href="http://JooThemes.net/">http://JooThemes.net</a></strong></h2>
+
+<h2>Blogus Free RWD Joomla template modules positions:</h2>
+<img src="../templates/blogus/images/modules.png" align="left" hspace="10" style="padding-top:10px;"/>
+	]]></description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>functions.php</filename>
+		<filename>social.php</filename>
+		<filename>social-sticky.php</filename>
+		<filename>template_thumbnail.jpg</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>params.ini</filename>
+		<filename>license.txt</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+		<folder>bootstrap/</folder>
+        <folder>admin/</folder>			
+	</files>
+	
+	<languages folder="language">
+		<language tag="da-DK">da-DK/da-DK.tpl_blogus.sys.ini</language>
+		<language tag="de-DE">de-DE/de-DE.tpl_blogus.sys.ini</language>
+		<language tag="el-GR">el-GR/el-GR.tpl_blogus.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_blogus.sys.ini</language>
+		<language tag="es-ES">es-ES/es-ES.tpl_blogus.sys.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.tpl_blogus.sys.ini</language>
+		<language tag="hr-HR">hr-HR/hr-HR.tpl_blogus.sys.ini</language>
+		<language tag="it-IT">it-IT/it-IT.tpl_blogus.sys.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.tpl_blogus.sys.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.tpl_blogus.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.tpl_blogus.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_blogus.sys.ini</language>
+	</languages>
+	
+	<positions>
+	    <position>bannertop</position>
+		<position>breadcrumbs</position>
+		<position>top</position>
+		<position>menu</position>
+		<position>footermenu</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user2</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>usermap</position>
+		<position>bottomgallery</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="jquery" type="list" default="yes" label="jQuery" description="Enable or disable jQuery latest version." filter="word">
+					<option value="yes">Enable</option>
+					<option value="no">Disable</option>
+				</field>	
+
+<field name="backgroundVariation" type="list" default="nn" label="Background Variation" description="Background variation to use">
+    <option value="defaultbg">Default background</option>
+    <option value="lnd">Light noise diagonal</option>
+	<option value="ilu">Ilusion</option>
+	<option value="ski">Skin side up</option>
+	<option value="reti">Reticular Tissue</option>
+    <option value="la">Light alu</option>
+    <option value="wbs">White bed sheet</option>
+    <option value="lght">Lghtmesh</option>
+    <option value="nn">Noisy net</option>
+	<option value="noisel">Noise lines</option>
+    <option value="hex">Hexellence</option>
+	<option value="agrey">Always grey</option>
+	<option value="pyr">Pyramid</option>
+	<option value="lknb">Little knobs</option>
+</field>
+
+				
+				<field name="scrolltop" type="list" default="yes" label="Back to Top Button" description="Enable or disable Back to Top button. This requires jQuery plugin." filter="word">
+					<option value="yes">Enable</option>
+					<option value="no">Disable</option>
+				</field>
+				<field name="superfish" type="list" default="yes" label="Superfish Menu Effect" description="Enable or disable Supperfish effect for main navigation menu. This requires jQuery plugin." filter="word">
+					<option value="yes">Enable</option>
+					<option value="no">Disable</option>
+				</field>											
+				<field name="logotype" type="list" default="text" label="Logo Type" description="Choose the type of the logo you want to display." filter="word">
+					<option value="image">Image Logo</option>
+					<option value="text">Text Logo</option>
+				</field>			
+			 <field name="logo" type="media" label="Logo Image" description="Please choose an image. If you want to display the original logo from the template, click on Clear and leave the field blank." />
+			 <field name="sitetitle"  type="text" default="BLOGUS" label="Logo Text" description="Please add your site title here, it's only displayed if you don't use a the text logo option." filter="string" />
+			 <field name="sitedesc"  type="text" default="Joomla 3 Free Template"	label="Site Description" description="Add your site's description here. Leave it blank to disable." filter="string" />
+			</fieldset>
+			
+			<fieldset name="gfont" description="" label="Google Fonts">
+			 <field name="googleFont" class="" type="list" default="Open+Sans+Condensed" label="Choose Google Font" description="You change the font for headers and main menu." >
+
+<option value="Abel">Abel</option>
+<option value="Alegreya+SC">Alegreya+SC</option>
+<option value="Antic+Didone">Antic+Didone</option>
+<option value="Architects+Daughter">Architects+Daughter</option>
+<option value="Arimo">Arimo</option>
+<option value="Asul">Asul</option>
+<option value="Audiowide">Audiowide</option>
+<option value="Bad+Script">Bad+Script</option>
+<option value="Butcherman">Butcherman</option>
+<option value="Butterfly+Kids">Butterfly+Kids</option>
+<option value="Cabin">Cabin</option>
+<option value="Capriola">Capriola</option>
+<option value="Cardo">Cardo</option>
+<option value="Chelsea+Market">Chelsea+Market</option>
+<option value="Chenla">Chenla</option>
+<option value="Crete+Round">Crete+Round</option>
+<option value="Denk+One">Denk+One</option>
+<option value="Devonshire">Devonshire</option>
+<option value="Didact+Gothic">Didact+Gothic</option>
+<option value="Diplomata">Diplomata</option>
+<option value="Dosis">Dosis</option>
+<option value="Dr+Sugiyama">Dr+Sugiyama</option>
+<option value="Droid+Sans">Droid+Sans</option>
+<option value="EB+Garamond">EB+Garamond</option>
+<option value="Elsie+Swash+Caps">Elsie+Swash+Caps</option>
+<option value="Esteban">Esteban</option>
+<option value="Euphoria+Script">Euphoria+Script</option>
+<option value="Ewert">Ewert</option>
+<option value="Exo">Exo</option>
+<option value="Flavors">Flavors</option>
+<option value="Fruktur">Fruktur</option>
+<option value="Fugaz+One">Fugaz+One</option>
+<option value="Geo">Geo</option>
+<option value="Glegoo">Glegoo</option>
+<option value="Gruppo">Gruppo</option>
+<option value="Gudea">Gudea</option>
+<option value="Hanuman">Hanuman</option>
+<option value="Happy+Monkey">Happy+Monkey</option>
+<option value="Headland+One">Headland+One</option>
+<option value="Homenaje">Homenaje</option>
+<option value="IM+Fell+DW+Pica">IM+Fell+DW+Pica</option>
+<option value="Iceberg">Iceberg</option>
+<option value="Imprima">Imprima</option>
+<option value="Inconsolata">Inconsolata</option>
+<option value="Jura">Jura</option>
+<option value="Just+Another+Hand">Just+Another+Hand</option>
+<option value="Kaushan+Script">Kaushan+Script</option>
+<option value="Kavoon">Kavoon</option>
+<option value="Keania+One">Keania+One</option>
+<option value="Kelly+Slab">Kelly+Slab</option>
+<option value="Kotta+One">Kotta+One</option>
+<option value="Ledger">Ledger</option>
+<option value="Lemon">Lemon</option>
+<option value="Libre+Baskerville">Libre+Baskerville</option>
+<option value="Magra">Magra</option>
+<option value="Maiden+Orange">Maiden+Orange</option>
+<option value="Marcellus">Marcellus</option>
+<option value="Margarine">Margarine</option>
+<option value="Marko+One">Marko+One</option>
+<option value="Miss+Fajardose">Miss+Fajardose</option>
+<option value="Mountains+of+Christmas">Mountains+of+Christmas</option>
+<option value="Neucha">Neucha</option>
+<option value="Nova+Cut">Nova+Cut</option>
+<option value="Numans">Numans</option>
+<option value="Nunito">Nunito</option>
+<option value="Odor+Mean+Chey">Odor+Mean+Chey</option>
+<option value="Offside">Offside</option>
+<option value="Old+Standard+TT">Old+Standard+TT</option>
+<option value="Open+Sans+Condensed">Open+Sans+Condensed</option>
+<option value="Oswald">Oswald</option>
+<option value="Ovo">Ovo</option>
+<option value="Oxygen">Oxygen</option>
+<option value="PT+Sans">PT+Sans</option>
+<option value="Paprika">Paprika</option>
+<option value="Parisienne">Parisienne</option>
+<option value="Quando">Quando</option>
+<option value="Quantico">Quantico</option>
+<option value="Racing+Sans+One">Racing+Sans+One</option>
+<option value="Radley">Radley</option>
+<option value="Rajdhani">Rajdhani</option>
+<option value="Roboto+Condensed">Roboto+Condensed</option>
+<option value="Sancreek">Sancreek</option>
+<option value="Sarina">Sarina</option>
+<option value="Satisfy">Satisfy</option>
+<option value="Slabo+13px">Slabo+13px</option>
+<option value="Text+Me+One">Text+Me+One</option>
+<option value="The+Girl+Next+Door">The+Girl+Next+Door</option>
+<option value="Tienne">Tienne</option>
+<option value="Tulpen+One">Tulpen+One</option>
+<option value="Ubuntu">Ubuntu</option>
+<option value="Uncial+Antiqua">Uncial+Antiqua</option>
+<option value="Underdog">Underdog</option>
+<option value="Unica+One">Unica+One</option>
+<option value="Vibur">Vibur</option>
+<option value="Volkhov">Volkhov</option>
+<option value="Voltaire">Voltaire</option>
+<option value="Waiting+for+the+Sunrise">Waiting+for+the+Sunrise</option>
+<option value="Wire+One">Wire+One</option>
+<option value="Yanone+Kaffeesatz">Yanone+Kaffeesatz</option>
+<option value="Zeyada">Zeyada</option>
+
+		     </field>
+			 <field name="googleFontCharacter" class="" type="text" default="latin,latin-ext" label="Choose the character sets you want:" description="You can use (one or more, each separated by commas): latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-ext,vietnamese,khmer,devanagari. IMPORTANT! If you are not sure if the font supports your language, refer to https://www.google.com/fonts.">
+		     </field>
+			 <field name="googleFontWeight" class="" type="text" default="400" label="Font weight:" description="You can use (one or more, each separated by commas): 300,400,700. IMPORTANT! If you are not sure if the font supports weight, refer to https://www.google.com/fonts.">
+		     </field>
+			</fieldset>
+			
+			<fieldset name="analytics" description="" label="Google Analitycs">	
+			<field name="analyticsCode" type="textarea" rows="6" cols="40" label="Here paste your Google Analytics code:" description="Here paste your Google Analytics code" />
+			</fieldset>	 
+		
+		<fieldset name="social" label="Social Icons">			
+			<field name="SocialLink1" label="&lt;div class=&quot;social_1&quot;&gt;Facebook&lt;/div&gt;" type="text" default="" description="Add URL here. (ie: http://facebook.com/user.name)" />
+			<field name="SocialLink2" label="&lt;div class=&quot;social_2&quot;&gt;Twitter&lt;/div&gt;" type="text" default="" description="Add URL here. (ie: http://twitter/username)" />
+			<field name="SocialLink3" label="&lt;div class=&quot;social_3&quot;&gt;Google&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink4" label="&lt;div class=&quot;social_4&quot;&gt;Youtube&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink5" label="&lt;div class=&quot;social_5&quot;&gt;Vimeo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink6" label="&lt;div class=&quot;social_6&quot;&gt;Flickr&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink7" label="&lt;div class=&quot;social_7&quot;&gt;Pinterest&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink8" label="&lt;div class=&quot;social_8&quot;&gt;Picasa&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink9" label="&lt;div class=&quot;social_9&quot;&gt;Linkedin&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink10" label="&lt;div class=&quot;social_10&quot;&gt;RSS&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink11" label="&lt;div class=&quot;social_11&quot;&gt;Evernote&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink12" label="&lt;div class=&quot;social_12&quot;&gt;Dribbble&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink13" label="&lt;div class=&quot;social_13&quot;&gt;Tumblr&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink14" label="&lt;div class=&quot;social_14&quot;&gt;Behance&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink15" label="&lt;div class=&quot;social_15&quot;&gt;StumbleUpon&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink16" label="&lt;div class=&quot;social_16&quot;&gt;Dropbox&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink17" label="&lt;div class=&quot;social_17&quot;&gt;SoundCloud&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink18" label="&lt;div class=&quot;social_18&quot;&gt;Last.fm&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink19" label="&lt;div class=&quot;social_19&quot;&gt;Forrst&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink20" label="&lt;div class=&quot;social_20&quot;&gt;DeviantArt&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink21" label="&lt;div class=&quot;social_21&quot;&gt;Blogger&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink22" label="&lt;div class=&quot;social_22&quot;&gt;Instagram&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink23" label="&lt;div class=&quot;social_23&quot;&gt;Yahoo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink24" label="&lt;div class=&quot;social_24&quot;&gt;GrooveShark&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink25" label="&lt;div class=&quot;social_25&quot;&gt;Digg&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink26" label="&lt;div class=&quot;social_26&quot;&gt;Skype&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink27" label="&lt;div class=&quot;social_27&quot;&gt;ShareThis&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink28" label="&lt;div class=&quot;social_28&quot;&gt;Bebo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink29" label="&lt;div class=&quot;social_29&quot;&gt;Zerply&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink30" label="&lt;div class=&quot;social_30&quot;&gt;MySpace&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink31" label="&lt;div class=&quot;social_31&quot;&gt;Wikipedia&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink32" label="&lt;div class=&quot;social_32&quot;&gt;Technorati&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink33" label="&lt;div class=&quot;social_33&quot;&gt;AddThis&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink34" label="&lt;div class=&quot;social_34&quot;&gt;Delicious&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink35" label="&lt;div class=&quot;social_35&quot;&gt;Xing&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink36" label="&lt;div class=&quot;social_36&quot;&gt;Quora&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLink37" label="&lt;div class=&quot;social_37&quot;&gt;Github&lt;/div&gt;" type="text" default="" description="Add URL here." />
+		</fieldset>
+
+        <fieldset name="socialsticky" label="Sticky Left Social Icons">			
+			<field name="SocialLinkSticky1" label="&lt;div class=&quot;social_1&quot;&gt;Facebook&lt;/div&gt;" type="text" default="" description="Add URL here. (ie: http://facebook.com/user.name)" />
+			<field name="SocialLinkSticky2" label="&lt;div class=&quot;social_2&quot;&gt;Twitter&lt;/div&gt;" type="text" default="" description="Add URL here. (ie: http://twitter/username)" />
+			<field name="SocialLinkSticky3" label="&lt;div class=&quot;social_3&quot;&gt;Google&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky4" label="&lt;div class=&quot;social_4&quot;&gt;Youtube&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky5" label="&lt;div class=&quot;social_5&quot;&gt;Vimeo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky6" label="&lt;div class=&quot;social_6&quot;&gt;Flickr&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky7" label="&lt;div class=&quot;social_7&quot;&gt;Pinterest&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky8" label="&lt;div class=&quot;social_8&quot;&gt;Picasa&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky9" label="&lt;div class=&quot;social_9&quot;&gt;Linkedin&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky10" label="&lt;div class=&quot;social_10&quot;&gt;RSS&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky11" label="&lt;div class=&quot;social_11&quot;&gt;Evernote&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky12" label="&lt;div class=&quot;social_12&quot;&gt;Dribbble&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky13" label="&lt;div class=&quot;social_13&quot;&gt;Tumblr&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky14" label="&lt;div class=&quot;social_14&quot;&gt;Behance&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky15" label="&lt;div class=&quot;social_15&quot;&gt;StumbleUpon&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky16" label="&lt;div class=&quot;social_16&quot;&gt;Dropbox&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky17" label="&lt;div class=&quot;social_17&quot;&gt;SoundCloud&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky18" label="&lt;div class=&quot;social_18&quot;&gt;Last.fm&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky19" label="&lt;div class=&quot;social_19&quot;&gt;Forrst&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky20" label="&lt;div class=&quot;social_20&quot;&gt;DeviantArt&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky21" label="&lt;div class=&quot;social_21&quot;&gt;Blogger&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky22" label="&lt;div class=&quot;social_22&quot;&gt;Instagram&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky23" label="&lt;div class=&quot;social_23&quot;&gt;Yahoo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky24" label="&lt;div class=&quot;social_24&quot;&gt;GrooveShark&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky25" label="&lt;div class=&quot;social_25&quot;&gt;Digg&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky26" label="&lt;div class=&quot;social_26&quot;&gt;Skype&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky27" label="&lt;div class=&quot;social_27&quot;&gt;ShareThis&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky28" label="&lt;div class=&quot;social_28&quot;&gt;Bebo&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky29" label="&lt;div class=&quot;social_29&quot;&gt;Zerply&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky30" label="&lt;div class=&quot;social_30&quot;&gt;MySpace&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky31" label="&lt;div class=&quot;social_31&quot;&gt;Wikipedia&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky32" label="&lt;div class=&quot;social_32&quot;&gt;Technorati&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky33" label="&lt;div class=&quot;social_33&quot;&gt;AddThis&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky34" label="&lt;div class=&quot;social_34&quot;&gt;Delicious&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky35" label="&lt;div class=&quot;social_35&quot;&gt;Xing&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky36" label="&lt;div class=&quot;social_36&quot;&gt;Quora&lt;/div&gt;" type="text" default="" description="Add URL here." />
+			<field name="SocialLinkSticky37" label="&lt;div class=&quot;social_37&quot;&gt;Github&lt;/div&gt;" type="text" default="" description="Add URL here." />
+		</fieldset>		
+		
+		</fields>
+	</config>	
+</extension>

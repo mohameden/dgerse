@@ -1,0 +1,231 @@
+//--------------------------------------------------------------
+// Copyright (C) joomla-monster.com
+// License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+// Website: http://www.joomla-monster.com
+// Support: info@joomla-monster.com
+//---------------------------------------------------------------
+
+// TABS
+//---------------------------------------------------------------
+
+#jm-allpage .djtabs.default-theme {
+  margin: 0;
+  .tabs-wrapper {
+    font-size: 0; // remove inline-block space
+  }
+  .djtabs-title-wrapper {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .djtabs-title {
+    font: inherit;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: @JMstyleLink;
+    height: auto;
+    line-height: 29px;
+    background: @JMtabBackground;
+    margin: 0 2px 0 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: none;
+    .border-radius(0);
+    .transition(background 0.2s ease-in);
+    width: auto;
+  }
+  .djtabs-title:hover, 
+  .djtabs-active-wrapper .djtabs-title {
+    color: @JMtabFontColorHover;
+    background: @JMstyleTabBackgroundHover;
+  }
+  .djtabs-in-border {
+    border: 1px solid @JMborder; 
+  }
+  .djtabs-in {
+    margin: 15px;
+  }
+  .djtabs-article-group {
+    margin: 0;
+  }
+  .djtabs-panel {
+    height: 27px;
+    line-height: 27px;
+    margin: 0;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-top: 1px solid @JMborder;
+    .border-radius(0);
+    span {
+      line-height: 27px;
+    }
+    .djtabs-panel-date {
+      margin: 0 15px 0 0;
+      color: @JMtabDateColor;
+      font: inherit;
+      font-weight: 400;
+    }
+    .djtabs-panel-title {
+      margin: 0 15px 0 0;
+      text-transform: none;
+      color: @JMaccordionFontColor;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .djtabs-panel > span.djtabs-panel-toggler {
+    &:hover {
+      background-color: @JMstyleAccordionMinusBackground;
+    }
+  }
+  .djtabs-panel:hover,
+  .djtabs-panel-active {
+    .djtabs-panel-title {
+      color: @JMstyleAccordionFontColorHover;
+    }
+  }
+  .djtabs-article-group:last-child .djtabs-panel {
+    border-bottom: 1px solid @JMborder;
+  }
+  .djtabs-panel > span.djtabs-panel-toggler {
+    margin: 0;
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../images/plus.png');
+    background-color: @JMaccordionPlusBackground;
+    .border-radius(0);
+    .transition(background-color 0.2s ease-in);
+  }
+  .djtabs-panel-active > span.djtabs-panel-toggler {
+    background-image: url('../images/minus.png');
+    background-color: @JMstyleAccordionMinusBackground;
+  }
+  .djtabs-date-in {
+    color: @JMtabDateColor;
+    font-size: 13px;
+  }
+  .djtabs-article-content {
+    font: inherit;
+    color: @JMbaseFontColor;
+    margin: 0;
+    a {
+    	color: @JMstyleLink;
+    }
+  }
+  .djtabs-article-footer {
+    margin: 15px 0 0;
+  }
+  .djtabs-article-author,
+  .djtabs-article-category {
+    font: inherit;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+    color: @JMtabCategoryAuthorColor;
+    a {
+      font-weight: 300;
+      color: @JMstyleLink;
+    }
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    vertical-align: baseline;
+    margin: 0;
+  }
+  .djtabs-readmore {
+    margin: 15px 0 0;
+    display: block;
+    width: 100%;
+    text-align: right;
+    a {
+      .readmore();
+      font-style: normal;
+    }
+  }
+  .djtab-custom-html {
+    display: inline-block;
+    margin: 0 8px 0 0;
+  }
+  .tabsBlock {
+    width: 100%;
+    margin: 0;
+  }
+  .type-article {
+    .djtabs-panel {
+      margin: 0 0 10px;
+      border: none!important;
+    }
+  }
+  .type-article-category {
+    .djtabs-article-group.djtabs-group-active {
+      margin: 0 0 10px;
+    }
+    .djtabs-panel.djtabs-panel-active {
+      margin: 0 0 10px;
+    }
+  }
+  .djtabs-article-img.dj-img-left {
+    margin-right: 20px;
+  }
+  .djtabs-article-img.dj-img-right {
+    margin-left: 20px;
+  }
+  .djtabs-article-img {
+    margin-bottom: 20px;
+  }
+}
+
+#jm-allpage .djtabs.default-theme.accordion {
+  margin: 1px 0 0;
+  .djtabs-title-wrapper {
+    width: 100%;
+  }
+  .djtabs-title {
+    color: @JMaccordionFontColor;
+    .box-sizing(border-box);
+    text-align: left;
+    margin: -1px 0 0;
+    background: none!important;
+    line-height: 27px;
+    padding: 10px 0 10px 45px;
+    position: relative;
+    border-top: 1px solid @JMborder;
+    border-bottom: 1px solid @JMborder;
+    width: 100%;
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: auto;
+      top: 10px;
+      width: 27px;
+      height: 27px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('../images/plus.png');
+      background-color: @JMaccordionPlusBackground;
+      .transition(background-color 0.2s ease-in);
+    }
+    &:hover {
+    	color: @JMstyleAccordionFontColorHover;
+    	&:after {
+    		background-color: @JMstyleAccordionMinusBackground;
+    	}
+    }
+  }
+  .djtabs-title.djtabs-active:after {
+    background-image: url('../images/minus.png');
+    background-color: @JMstyleAccordionMinusBackground;
+  }
+  .djtabs-active-wrapper .djtabs-title {
+    color: @JMstyleAccordionFontColorHover;
+  }
+  .djtabs-in-border {
+    border: none;
+  }
+  .djtabs-in {
+    margin: 10px 0;
+  }
+}

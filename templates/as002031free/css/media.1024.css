@@ -1,0 +1,82 @@
+
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for Large desktop
+/*
+/***************************************************************************************/
+
+@media (max-width: 1199px) 
+{
+
+	#header-row .mod-search_searchword
+	{
+		width: 230px;
+	}
+	
+	.moduletable.social ul li.separator 
+	{
+		display: block;
+	}
+	
+	#slider-row .slideshow #slider-row-background
+	{
+		min-height: 220px;
+	}
+	
+	#slider-row .slideshow .container
+	{
+		margin-top: -190px;
+	}
+	
+	#slider-row .slideshow #logo
+	{
+		margin-top: 5px;
+	}
+		
+	.slide_title
+	{
+		font-size: 100px;
+	}
+	
+	#camera-slideshow	
+	{
+		min-height: inherit;
+	}
+	
+	.camera_fakehover 
+	{
+		min-height: 230px !important;
+	}	
+		
+	.camera_caption a.readmore
+	{
+		right: 60px;
+	}
+	
+	.mod-newsflash-adv__links .item_content ul li a
+	{
+		font-size: 12px;
+	}
+	
+	#footer-row .moduletable.social li a 
+	{
+		height: 30px;
+		width: 30px;
+		margin-left: 10px;
+		font-size: 15px;
+	}
+	
+	.page-gallery .item_introtext
+	{
+		display: none;
+	}
+	
+	#back-top
+	{
+		display: none !important;
+	}	
+}

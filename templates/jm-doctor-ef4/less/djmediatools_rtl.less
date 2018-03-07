@@ -1,0 +1,117 @@
+//--------------------------------------------------------------
+// Copyright (C) joomla-monster.com
+// License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+// Website: http://www.joomla-monster.com
+// Support: info@joomla-monster.com
+//---------------------------------------------------------------
+
+// MEDIATOOLS RTL
+//---------------------------------------------------------------
+
+.dj-slide-title,
+.dj-slide-desc-text,
+.dj-slide-desc-text a {
+  text-align: right!important;    
+}
+
+#djmediatools a.dj-category {
+  float: right!important;
+}
+
+.dj-galleryGrid .dj-slide {
+  float: right!important;
+}
+
+.djslider {
+  direction: ltr !important;
+}
+
+.djslider .navigation-container-custom {
+  direction: rtl !important;
+}
+
+.dj-slideshowThumbs .dj-indicators-in {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.dj-slideshowThumbs .dj-load-button {
+  float: right !important;
+}
+
+.skitter.skitter-square .info_slide_dots .image_number {
+  float: right!important;
+}
+
+// djmediatools.less
+// ------------------------
+
+//readmore
+#jm-allpage #jm-page .dj-readmore-wrapper {
+  text-align: right;
+}
+
+// slideshow thumbnails 
+#jm-allpage #jm-page .dj-slideshowThumbs {
+  .dj-load-button {
+    margin: 0 0 0 10px;
+  }
+}
+
+// tabber
+#jm-allpage #jm-page .dj-tabber {
+  .dj-tab {
+    padding: 0 0 0 10px;
+  }
+}
+
+// skitter 
+.box_skitter .info_slide .image_number {
+  float: right!important;
+  margin: 0 0 0 10px!important;
+}
+
+.skitter-square .prev_button,
+.skitter-square .next_button {
+  right: auto!important;
+}
+
+.skitter-square .prev_button {
+  left: 10px!important;
+}
+
+.skitter-square .next_button {
+  left: 65px!important;
+}
+
+// header-ms
+#jm-allpage #jm-page .header-ms {
+  .dj-readmore-wrapper {
+    text-align: right;
+  }
+}
+
+// testimonials-ms
+#jm-allpage .testimonials-ms {
+  .jm-custom-text {
+    &:before {
+      left: auto;
+      right: 0;
+      border-width: 0 0 20px 30px;
+      border-color: transparent transparent @JMwhite transparent;
+    }
+    &:after {
+      left: 20px;
+      right: 0;
+      border-width: 20px 30px 0 0;
+      border-color: @JMmediatoolsTestimonialsBackground transparent transparent transparent;
+    }
+  }
+  .jm-custom-title {
+    text-align: left;
+  }
+  .jm-custom-subtitle {
+    text-align: left;
+  }
+}
+

@@ -1,0 +1,409 @@
+//--------------------------------------------------------------
+// Copyright (C) joomla-monster.com
+// License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+// Website: http://www.joomla-monster.com
+// Support: info@joomla-monster.com
+//---------------------------------------------------------------
+
+// VARIABLES import
+//---------------------------------------------------------------
+   
+@import "template_variables.less";
+@import "bootstrap_variables.less";
+
+// MIXINS import
+//---------------------------------------------------------------
+  
+@import "../../../plugins/system/ef4_jmframework/includes/assets/template/bootstrap/less-ext/mixins-ext.less"; //JM extended mixins
+@import "template_mixins.less";
+
+// TEMPLATE RTL
+//---------------------------------------------------------------
+
+// layout.less
+// --------------------------  
+
+//sticky
+.sticky-bar #jm-top-bar {
+  right: auto;
+  left: 0;
+}
+
+#jm-font-switcher {
+  text-align: left;
+}
+
+#jm-bottom-in {
+  &:after {
+    left: auto;
+    right: 0;
+  }
+}
+
+#jm-footer-center {
+  text-align: right;
+}
+
+#jm-footer-right {
+  text-align: left;
+}
+
+#jm-back-top {
+  right: auto;
+  left: 20px;
+}
+
+// joomla.less
+// --------------------------
+  
+// BOOTSTRAP
+//---------------------------------------------------------------
+  
+//chosen
+#jm-allpage .chzn-container .chzn-drop,
+#jm-allpage .chzn-container-single.chzn-container-single-nosearch .chzn-search {
+  left: auto;
+  right: -9999px;
+}
+
+#jm-allpage .chzn-container.chzn-with-drop .chzn-drop {
+  left: auto;
+  right: 0;
+}
+
+//chzn
+#jm-allpage {
+  .chzn-container-multi .chzn-choices li {
+    float: right;
+  }
+  .chzn-container-single .chzn-single span {
+    margin-right: 0;
+    margin-left: 26px;
+  }
+  .chzn-container-single .chzn-single div {
+    right: auto;
+    left: 8px;
+  }
+}
+
+// JOOMLA COMPONENT
+//---------------------------------------------------------------
+
+//all articles
+dl.article-info {
+  dd {
+    margin: 0 0 0 3px;
+    padding: 0 0 0 8px;
+    &:after {
+      left: 0;
+      right: auto;
+    }
+  }
+}
+
+//rating and voting
+.content_vote label {
+  margin: 0 0 0 5px;
+}
+
+//article categories
+.categories-list .collapse {
+  padding: 0 @JMbaseSpace 0 0;
+}
+
+//category blog
+//article separator
+.pull-left.item-image,
+figure.pull-left {
+  margin-right: 0;
+  margin-left: @JMbaseSpace;
+}
+
+.pull-right.item-image,
+figure.pull-right {
+  margin-left: 0;
+  margin-right: @JMbaseSpace;
+}
+  
+//readmore
+p.readmore {
+  text-align: left;
+}
+
+//weblinks single category
+.weblink-count {
+  dt,
+  dd {
+    float: right;
+  }
+}
+
+//tag-category
+.tag-category {
+  .form-inline label {
+    margin-right: 0;
+    margin-left: 10px;
+  } 
+}
+
+//search component
+.phrases-box,
+fieldset.only {
+  label {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+//article index
+.article-index {
+  margin-left: 0;
+  margin-right: @JMbaseSpace;
+}
+
+// JOOMLA MODULES
+//---------------------------------------------------------------
+
+//article categories
+.categories-module li  {
+  .mod-articles-category-category a {
+    display: inline-block;
+  }
+}
+
+//article category
+.category-module li {
+  .mod-articles-category-category a {
+    display: inline-block;
+  }
+}
+
+//search module
+.form-search {
+  label.finder {
+    padding: 0 0 0 10px;
+  }
+}
+
+//popular tags
+.tagspopular.tagscloud {
+  .tag {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+} 
+
+// menus.less
+// --------------------------  
+
+.nav.menu {
+  ul {
+    padding: 0 20px 0 0;
+  }
+  > li.parent > a,
+  > li.parent > span.separator {
+    padding-right: 0;
+    padding-left: 10px;
+    &:after {
+      right: auto;
+      left: 0; 
+    }
+  }
+  li a img {
+    margin: 0 0 0 15px;
+  }
+}
+
+// megamenu menu
+.dj-megamenu .nav.menu {
+  > li.parent > a,
+  > li.parent > span.separator {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  > li.parent > a:after,
+  > li.parent > span.separator:after {
+    left: 0;
+    right: auto;
+  }
+  ul {
+    padding: 0 10px 0 0;
+  }
+}
+
+// top-bar menu
+#jm-top-bar .nav.menu {
+  > li > a,
+  > li > span.separator {
+    padding: 0 15px 0 0;
+  }
+}
+
+#jm-top-bar .nav.menu {
+  li ul {
+    left: auto;
+    right: 0;
+  }
+  li li ul {
+    left: auto;
+    right: 100%;
+  }
+}
+
+// modules.less
+// --------------------------  
+
+.span50 {
+  float: right !important;
+}  
+
+// default module
+.jm-module {
+  .jm-title {
+    &:after {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+// logout topbar
+#jm-top-bar {
+  .logout-button .btn {
+    margin-left: 0!important;
+    margin-right: 10px!important;
+  }
+}
+
+// margin
+.jm-module.side-margin-ms {
+	margin-left: 0!important;
+	margin-right: -@JMbaseSpace!important;
+}
+
+// jmmoduleraw
+.jm-module-raw {
+  float: left;
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.search-ms .search {
+  input.button,
+  button.button {
+    right: auto;
+    left: 0;
+  }
+	input.inputbox {
+    left: 30px;
+    right: auto;
+  }
+}
+
+.jm-box-wrapper {
+  .jm-box {
+    float: right;
+    span.jm-icon {
+      &:after {
+        left: auto;
+        right: 0;
+      }
+    } 
+    span.jm-icon-title span.jm::before {
+      left: auto;
+      right: 0;
+    } 
+  }
+}
+
+// box-vertical
+.jm-box-vertical {
+  .jm-box {
+    .jm-icon {
+      float: right;
+    }
+    .jm-cell {
+      float: right;
+    }
+  }
+}
+
+// table hours
+.jm-table-hours {
+  .col1,
+  .col2,
+  .col3,
+  .col4,
+  .col5 {
+    float: right;
+  }
+}
+
+// bottom modules
+.jm-bottom-box {
+  .icon {
+    padding: 0 0 0 20px;
+  }
+}
+
+
+// editor.less
+// --------------------------  
+ 
+p.blue {
+	border-left: none;
+  border-right: 3px solid #BCE8F1;
+  padding: 0 10px 0 0;
+}
+
+p.green {
+	border-left: none;
+  border-right: 3px solid #D6E9C6;
+  padding: 0 10px 0 0;
+}
+
+p.red {
+	border-left: none;
+  border-right: 3px solid #EED3D7;
+  padding: 0 10px 0 0;
+} 
+ 
+.jm-block {
+  padding: 0 60px 0 0;
+  span {
+    left: auto;
+    right: 0;
+  }
+}
+
+p.jmbadge,
+p.jmcalendar,
+p.jmchat,
+p.jmcheck,
+p.jmcloud,
+p.jmdirection,
+p.jmdivide,
+p.jmerror,
+p.jmfire,
+p.jmflag,
+p.jmheart,
+p.jmhome,
+p.jminfo,
+p.jmlist,
+p.jmmail,
+p.jmpeople,
+p.jmstar,
+p.jmstat {
+  padding-left: 0;
+  padding-right: 60px;
+  background-position: right top;
+}
+
+// EXTENSIONS import
+//---------------------------------------------------------------
+
+//import extended DJ-Mediatools styles
+@import "djmediatools_rtl.less";
+
+//import extended DJ-Tabs styles
+@import "djtabs_rtl.less";
